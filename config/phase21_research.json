@@ -1,0 +1,24 @@
+{
+  "scope": "RESEARCH_ONLY_NOT_TRADABLE_BACKTEST",
+  "as_of": "2026-09-30",
+  "research_sessions": 120,
+  "feature_lookback": 60,
+  "target_horizons": [2, 3, 5],
+  "target_threshold": 0.10,
+  "primary_label_basis": "ENTRY_DATE_COMPARABLE_PRICE_WITH_RAW_SHADOW",
+  "amount_enabled": false,
+  "history_st_unknown_allowed": true,
+  "production_tradable_universe_ready": false,
+  "rule_thresholds": {
+    "A": {"ret20_min": 0.10, "close_vs_ma5_min": -0.03, "close_vs_ma5_max": 0.02},
+    "B": {"close_location_min": 0.70},
+    "C": {"volume_ratio5_min": 1.50},
+    "D": {"limit_proxy_count5_min": 1, "volume_ratio5_min": 1.00},
+    "E": {"ret20_max": -0.10, "position60_max": 0.40, "close_location_min": 0.60, "volume_ratio5_min": 1.20}
+  },
+  "rules_frozen_before_outcome_statistics": true,
+  "volume_buckets": [0.8, 1.2, 1.5, 2.0, 3.0],
+  "calendar": "OBSERVED_MARKET_UNION_NOT_OFFICIAL",
+  "missing_future_bar": "CENSOR_NO_SKIP_TO_LATER_STOCK_BAR",
+  "limit_up_fields": "NOMINAL_BOARD_NON_ST_PRICE_PATTERN_PROXY_NOT_OFFICIAL_STATUS"
+}

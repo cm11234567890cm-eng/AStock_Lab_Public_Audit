@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-11-05T13:55:23.216443+00:00",
+  "python": "3.12.10",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "pytest": "9.1.1",
+    "fastapi": "0.142.2",
+    "httpx": "0.28.1",
+    "lightgbm": "4.6.0",
+    "scipy": "1.18.1"
+  },
+  "exit_code": 0,
+  "elapsed_seconds": 10.865,
+  "tests": 90,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "scope": "Reviewed synthetic tests only; no live APIs, original datasets or historical acceptance suite",
+  "safeguards": "Python audit hooks deny networking, subprocesses, writes outside scratch, and reads outside snapshot/runtime; not an OS sandbox",
+  "source_commit": "fc5153dc4581fd4094d1e9c263dd0ed420ef170a",
+  "original_files_unchanged": 56,
+  "excluded_original_files": 383,
+  "synthetic_example": "PASS: future action excluded, effective-date adjustment and input immutability",
+  "warnings": {
+    "count": 57,
+    "type": "NumPy timedelta generic unit deprecation",
+    "locations": [
+      "src/research/target_discovery.py:42",
+      "src/research/target_discovery.py:97"
+    ]
+  },
+  "preliminary_runner_failures": [
+    "Runner initially denied pytest reads of the null device; guard allowed null device only",
+    "Runner initially denied pytest default null-device logging path; log-file now explicitly confined to scratch"
+  ],
+  "runtime_scope": "No existing packages upgraded; no live data/provider calls; no full historical acceptance rerun"
+}

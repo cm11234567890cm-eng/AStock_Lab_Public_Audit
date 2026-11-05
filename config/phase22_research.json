@@ -1,0 +1,28 @@
+{
+  "scope": "RESEARCH_ONLY_NOT_TRADABLE_BACKTEST",
+  "as_of": "2026-09-30",
+  "discovery_sessions": 80,
+  "validation_sessions": 35,
+  "purge_discovery_sessions": 5,
+  "coverage_threshold_pct": 50,
+  "amount_enabled": false,
+  "episode_definition": "MAXIMAL_CONSECUTIVE_OBSERVED_MARKET_WINNER_DATES_WITH_OVERLAPPING_5D_HORIZONS",
+  "episode_thresholds_pct": [10,20,30,40],
+  "episode_precision_definition": "SUCCESSFUL_CONTIGUOUS_SIGNAL_CLUSTERS_DIVIDED_BY_ALL_SIGNAL_CLUSTERS",
+  "capture_definition": "DISTINCT_WINNER_EPISODES_WITH_SIGNAL_ON_THRESHOLD_QUALIFYING_MEMBER",
+  "lead_definition": "FIRST_THRESHOLD_DATE_FROM_EARLIEST_QUALIFYING_ANCHOR_MINUS_FIRST_RULE_DETECTION_DATE_SIGNED",
+  "feature_small_up_max": 0.015,
+  "rules_frozen_before_phase22_outcome_evaluation": true,
+  "F": {"price_acceleration_3_min":0.02,"volume_ratio_5_min":1.0,"close_vs_ma10_min":-0.02},
+  "G": {"prior_compression_max":0.8,"volume_ratio_5_min":1.5,"close_location_min":0.6},
+  "H": {"prior_volume_spike_min":2.0,"close_location_min":0.6},
+  "I": {"drawdown_10_min":0.08,"recovery_3_min":0.03,"close_location_min":0.6},
+  "J": {"small_up_days_min":3,"volume_ratio_5_min":0.6,"volume_ratio_5_max":1.5},
+  "archetypes": {
+    "gap_min":0.03,"deep_drawdown_min":0.10,"prior_runup_min":0.20,
+    "low_position_max":0.30,"low_ret20_abs_max":0.05,"expansion_min":1.5,
+    "prior_volume_min":2.0,"high_ret20_min":0.20,"high_position_min":0.80,
+    "compression_max":0.70,"stealth_small_up_min":3,
+    "priority":["LIMIT_UP_IGNITION","GAP_IGNITION","DEEP_PULLBACK_REVERSAL","LOW_BASE_EXPANSION","VOLUME_FIRST_PRICE_LATER","EARLY_TREND_ACCELERATION","HIGH_MOMENTUM_CONTINUATION","VOLATILITY_COMPRESSION","MULTI_DAY_STEALTH_ACCUMULATION"]
+  }
+}

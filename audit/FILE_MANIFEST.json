@@ -1,0 +1,2216 @@
+{
+  "source_repository": "cm11234567890cm-eng/AStock_Lab",
+  "source_branch": "main",
+  "source_commit": "fc5153dc4581fd4094d1e9c263dd0ed420ef170a",
+  "original_files": [
+    {
+      "path": ".gitignore",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "README.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "config/data_sources.json",
+      "status": "excluded",
+      "reason": "Local/provider operational configuration excluded"
+    },
+    {
+      "path": "config/phase21_research.json",
+      "status": "included_unchanged",
+      "sha256": "b8222ff18428707a04e0c92a8a591459325306c361e15c3c9ff8d76ae94d9304"
+    },
+    {
+      "path": "config/phase22_research.json",
+      "status": "included_unchanged",
+      "sha256": "b29d8ca7ee1998de60a862cc79b3e110ba83a1b5325838bfde8a79456d5dce3a"
+    },
+    {
+      "path": "config/tdxaidata_ini_template.ini",
+      "status": "excluded",
+      "reason": "Local/provider operational configuration excluded"
+    },
+    {
+      "path": "data/test_fixtures/differential_dividend/events.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/differential_dividend/events_phase19e.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/phase19f/reviewed_differential.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/phase19f/rights_monthly_table_cases.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/phase19i/bse_history_boundaries.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/phase19i/reviewed_differential.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/000811.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/000811.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/000880.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/000880.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/000937.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/000937.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/000999.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/000999.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/001323.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/001323.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/001395.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/001395.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/001400.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/001400.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002222.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002222.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002315.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002315.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002393.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002393.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002458.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002458.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002555.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002555.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002749.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002749.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002831.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002831.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002847.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002847.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002864.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002864.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002911.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002911.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002984.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/002984.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/003008.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/003008.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/003020.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/003020.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300033.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300033.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300058.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300058.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300100.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300100.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300176.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300176.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300192.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300192.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300226.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300226.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300274.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300274.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300308.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300308.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300346.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300346.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300394.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300394.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300501.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300501.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300532.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300532.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300573.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300573.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300622.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300622.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300660.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/300660.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301023.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301023.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301230.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301230.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301299.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301299.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301479.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301479.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301557.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/301557.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600177.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600177.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600188.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600188.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600211.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600211.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600426.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600426.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600452.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600452.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600480.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600480.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600508.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600508.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600551.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600551.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600826.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/600826.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603027.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603027.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603039.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603039.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603040.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603040.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603400.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603400.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603409.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603409.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603881.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603881.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603883.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603883.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603928.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603928.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603939.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/603939.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/605016.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/605016.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/605086.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/605086.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688016.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688016.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688036.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688036.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688092.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688092.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688102.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688102.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688131.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688131.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688155.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688155.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688179.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688179.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688188.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688188.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688191.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688191.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688208.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688208.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688257.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688257.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688259.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688259.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688281.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688281.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688336.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688336.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688366.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688366.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688516.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688516.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688583.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688583.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688625.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688625.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688755.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688755.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688789.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/688789.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920002.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920002.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920027.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920027.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920112.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920112.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920221.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920221.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920242.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920242.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920262.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920262.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920395.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920395.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920396.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920396.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920418.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920418.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920508.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920508.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920533.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920533.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920663.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920663.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920682.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920682.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920735.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920735.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920779.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920779.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920826.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920826.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920833.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920833.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920879.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920879.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920976.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920976.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920982.divid.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/920982.none.native.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/pit100/manifest.csv",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/rights_validation/002466_20191226.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "data/test_fixtures/rights_validation/300176_20260821.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "docs/adjustment_basis_schema.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/cross_validation_report.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/data_inventory.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/data_source_comparison.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/path_verification.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/permanent_bse_exclusion.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/phase19e_validation_contract.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/phase19g_anchor_diagnosis.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/phase19h_diagnosis.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/phase19i_final_qualification.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/phase19j_auxiliary_definitions.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/phase19k_tick_coverage.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/safety_boundary.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/tdx_corporate_action_discovery.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/tdx_discovery.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/tdx_old_vs_official.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "docs/vnpy_assessment.md",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "outputs/adjustment_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/canonical_universe_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/cloud_test_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/corporate_actions_gap_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/current_adjusted_100_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/data_foundation_freeze_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/data_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/differential_dividend_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/differential_search_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/exchange_corporate_action_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/foundation_release_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/github_cloud_testability_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19e_tests_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19f_evidence_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19f_tests_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19g_anchor_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19g_fetch_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19h_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19i_amount_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19i_ca_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19i_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19i_qualification_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19i_recheck_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19i_recheck_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19j_bridge_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19j_bytes_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19j_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19j_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19k_bridge_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19k_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase19k_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase21_research_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase21_target_discovery_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase22_missed_winner_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase22_research_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23_coverage_recovery_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23_research_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23b_ca_gap_recovery_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23b_research_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23c/catalog_reconciliation_audit.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23c/coverage_by_month.csv",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23c/presence_validation.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23c/research_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23c/validation_coverage.csv",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase23c_label_censoring_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase24a/analysis_contract.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase24a/discovery_strategy_weights.csv",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase24a/frozen_method_selection.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase24a/frozen_ranking_model.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase24a/opportunity_cost_summary.csv",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase24a/ranking_metrics.csv",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase24a/research_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase24a/test_results.txt",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase24a_daily_ranking_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase25_ml_ranking_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase26a_objective_tradability_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase2_readiness_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase2_target_discovery_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase2_tests_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/phase_x1_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/pit_fixture_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/special_corporate_action_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/special_corporate_action_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/tdx_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/tdx_official_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/tdxaidata_100_analysis_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/tdxaidata_100_sample.csv",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/tdxaidata_5probe_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/tdxaidata_qualification_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/tdxaidata_qualification_report.md",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "outputs/universe_health.json",
+      "status": "excluded",
+      "reason": "Real/provider-derived data, empirical evidence or outputs; public redistribution not established"
+    },
+    {
+      "path": "requirements-phase25.txt",
+      "status": "included_unchanged",
+      "sha256": "62f7892da8df82445ed080aa082fd4b8d51b95015b4c6dd0cbf047d364416d98"
+    },
+    {
+      "path": "requirements.txt",
+      "status": "included_unchanged",
+      "sha256": "fc8fd9af43deff24f0eab71e21084c54853994ba844be3e9700f0e84fa12978c"
+    },
+    {
+      "path": "run_backtest.py",
+      "status": "included_unchanged",
+      "sha256": "f5c6d2699398794e2a88d2937cfef904c4d23c102b636adfc9d2bb3ae3a2fd8a"
+    },
+    {
+      "path": "run_dashboard.py",
+      "status": "included_unchanged",
+      "sha256": "7fa9c93047ddbdc495506504e253d10a1288517892a64fbf9e84a7ace09d2083"
+    },
+    {
+      "path": "run_research.py",
+      "status": "excluded",
+      "reason": "Nonessential documentation/report/operational file; not part of the selected code review scope"
+    },
+    {
+      "path": "scripts/audit_bse_exclusion.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/audit_light_repository.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/build_differential_fixture.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/build_phase19e_reviewed_fixture.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/build_pit_fixture.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/build_rights_fixture.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/discover_differential_announcements.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/extract_differential_basis_candidates.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/extract_exchange_evidence.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/finalize_phase21_research.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/finalize_phase22_research.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/finalize_phase23_research.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/finalize_phase23b_research.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/finalize_phase23c_research.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/finalize_phase24a_ranking.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/finalize_phase25_ranking.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/finalize_phase26a_audit.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/finalize_source_qualification.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19f_current_audit.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19f_export_evidence.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19f_finalize.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19f_queue.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19f_read_batch.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19g_analyze.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19g_fetch.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19g_finalize.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19g_sample_inventory.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19h_analyze.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19h_controls.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19h_finalize.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19i_amount.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19i_close_evidence.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19i_extract_seven.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19i_finalize.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19i_recheck.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19j_amount_bytes.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19j_auxiliary_fetch.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19j_finalize.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19k_tick_arbitration.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase19k_ticks_fetch.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase23b_exchange_probe.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase23b_publication_catalog.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase23b_targeted_evidence.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase23c_official_sample.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase23c_prepare_features.py",
+      "status": "included_unchanged",
+      "sha256": "c971b1d9d2df1d6a7cda7a5e5af1182d54b6e93f568aa5c423b487d991c861a2"
+    },
+    {
+      "path": "scripts/phase23c_presence_fetch.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase23c_presence_validate.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/phase24a_prepare_outcomes.py",
+      "status": "included_unchanged",
+      "sha256": "715d65bcbb0bf6d910c59b42d09194d11422765c382e81bcfd2bec260283eaa3"
+    },
+    {
+      "path": "scripts/phase25_prepare_data.py",
+      "status": "included_unchanged",
+      "sha256": "9be73ff973baf6fdf053ad8285fa01e4d3d0e34af3a5e2ce5dfd5fb55154be70"
+    },
+    {
+      "path": "scripts/phase26a_prepare_bars.py",
+      "status": "included_unchanged",
+      "sha256": "de9e11f86073d29902ddb9aa5d062574e0660318f8faa354ae80379949c8a0d2"
+    },
+    {
+      "path": "scripts/phase2_readiness.py",
+      "status": "included_unchanged",
+      "sha256": "9e13315184ba7b836888ebde19ab0a0e5b2af91f48583d04dc273d11ed96057e"
+    },
+    {
+      "path": "scripts/run_phase21_research.py",
+      "status": "included_unchanged",
+      "sha256": "3b77f8afada493ab9930673a0c147e98d2643236a65bec8c3a80305d609219e3"
+    },
+    {
+      "path": "scripts/run_phase22_research.py",
+      "status": "included_unchanged",
+      "sha256": "240500769d1542c3495fea9f8b3cd5b57c7e555e1ecee8103da4e659b66001cf"
+    },
+    {
+      "path": "scripts/run_phase23_research.py",
+      "status": "included_unchanged",
+      "sha256": "047834b919ab0fdaaededcdcd2bf73f991b9f94ac129099379dc7076b97b866a"
+    },
+    {
+      "path": "scripts/run_phase23b_research.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/run_phase23c_research.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/run_phase24a_ranking.py",
+      "status": "included_unchanged",
+      "sha256": "b0f94bf531e61785c5ec749de51e175d24badcc6b6786cbc53997140d5994993"
+    },
+    {
+      "path": "scripts/run_phase25_ranking.py",
+      "status": "included_unchanged",
+      "sha256": "b757e891f238c73d5e1cdbd450a3949f0540b2c733a7020747a5955b1865862f"
+    },
+    {
+      "path": "scripts/run_phase26a_audit.py",
+      "status": "included_unchanged",
+      "sha256": "eba4a128c650a83a36c4a77af104f923b241c67f018d410d7eac6e7029118f67"
+    },
+    {
+      "path": "scripts/run_special_action_closure.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/summarize_corporate_action_gap.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/validate_differential_basis.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/verify_cloud_checkout.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "scripts/verify_exchange_actions.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/__init__.py",
+      "status": "included_unchanged",
+      "sha256": "0526b83b64ef8dc280bf4c9386784825ea681f77e67f67a9b617646e9fd2bc97"
+    },
+    {
+      "path": "src/dashboard/__init__.py",
+      "status": "included_unchanged",
+      "sha256": "8a50fb6b09fdc8c2baafea4b6c0487b2fb1799356520bb6e4eecbefae45e3f72"
+    },
+    {
+      "path": "src/dashboard/app.py",
+      "status": "included_unchanged",
+      "sha256": "1d5baf3934f02352fde3157ee17ec1b29f4af4d912ddc62d1e806d9786ae94f1"
+    },
+    {
+      "path": "src/data/__init__.py",
+      "status": "included_unchanged",
+      "sha256": "aa418b9ca65318b78926c968c98c9288c985e43e827fb362e07449d608d5a8c0"
+    },
+    {
+      "path": "src/data/adapter.py",
+      "status": "included_unchanged",
+      "sha256": "f83fe5f4d6605c6a6ba0b45e1b8f508477b2bcdeae760518d7af703b5a26643d"
+    },
+    {
+      "path": "src/data/adjustment_engine.py",
+      "status": "included_unchanged",
+      "sha256": "df8e28c8ffbf5de40e978405917df48c182b95fdd463240c993aea695b80fe23"
+    },
+    {
+      "path": "src/data/adjustment_qualification.py",
+      "status": "included_unchanged",
+      "sha256": "8055ae2eab05d6512d86075d54487f0a24c19318f8c4d758ecaf2ff57890a2f5"
+    },
+    {
+      "path": "src/data/corporate_actions.py",
+      "status": "included_unchanged",
+      "sha256": "6d7fd79b32ecca2a8ad67dfd916e38de95ef263950716a1df8fefaca5500df89"
+    },
+    {
+      "path": "src/data/inventory.py",
+      "status": "included_unchanged",
+      "sha256": "c4cd0d5a4b3921cdd31d33f36ddc9a54e95c00e8d7f3c34941fd8ea5f5e4cda1"
+    },
+    {
+      "path": "src/data/phase15_audit.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/data/phase19_verify.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/data/schema.py",
+      "status": "included_unchanged",
+      "sha256": "a4ed827eb24c0c48ff1561d3ddc88f9d483ff42fc2ef0cb64dc6e841be23db9c"
+    },
+    {
+      "path": "src/data/security_master.py",
+      "status": "included_unchanged",
+      "sha256": "f498a96c1465509f9f626618e97363ca058046302d026ca62de9a8ee9bdf9233"
+    },
+    {
+      "path": "src/data/source_probe.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/data/tdx_discovery.py",
+      "status": "included_unchanged",
+      "sha256": "dee41b3180c701851f09136b50f1cdda42af2ccf1c660a6d27fd69fd280095c6"
+    },
+    {
+      "path": "src/data/tdx_official_verify.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/data/tdxaidata_100_analysis.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/data/tdxaidata_100_select.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/data/tdxaidata_probe_analysis.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/data/tdxaidata_qualification_fetch.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/data/tdxaidata_safe_probe.py",
+      "status": "excluded",
+      "reason": "Legacy acquisition, credentials integration, empirical fixture/evidence generation or report orchestration outside safe offline review scope"
+    },
+    {
+      "path": "src/data/trading_calendar.py",
+      "status": "included_unchanged",
+      "sha256": "4edede4dbe80cc518e90157041bd1944dd31204ef03d131373ee65f0d68de446"
+    },
+    {
+      "path": "src/market_rules/__init__.py",
+      "status": "included_unchanged",
+      "sha256": "644728ebdf777968e49ca1c6a2109d3489aacc2697f380eeb319e113efe5df9c"
+    },
+    {
+      "path": "src/market_rules/china_a_share.py",
+      "status": "included_unchanged",
+      "sha256": "a6c565b15a67e799ef2a94744e45ab47f1a79652db1e83384dabba09afb8c9f9"
+    },
+    {
+      "path": "src/research/__init__.py",
+      "status": "included_unchanged",
+      "sha256": "f301e3ce9c8e2afbde4bfe50c46375ea44afe569e9501d8e3785ab570ac21e57"
+    },
+    {
+      "path": "src/research/ca_publication.py",
+      "status": "included_unchanged",
+      "sha256": "dc80740896c68d7acda84b6630aca9444022029b1f402143eccf8cf691a911e6"
+    },
+    {
+      "path": "src/research/coverage_recovery.py",
+      "status": "included_unchanged",
+      "sha256": "e4e80a09275896a821de5ca7e2204f28e845b2ff8b3eb984c9557fb8fa111e2b"
+    },
+    {
+      "path": "src/research/daily_ranking.py",
+      "status": "included_unchanged",
+      "sha256": "f73265bd49589ddf5b9ae8ddcae767cb658351bdaba574953bbacd9569c23b59"
+    },
+    {
+      "path": "src/research/episodes.py",
+      "status": "included_unchanged",
+      "sha256": "aa5cd3dbd4395d8853ab4ccde1d09a3686a900ad768f7d25082bad15a8db8304"
+    },
+    {
+      "path": "src/research/fresh_holdout_registry.py",
+      "status": "included_unchanged",
+      "sha256": "8637d3c1d52ef9e5aa58239c3364a44f38686580dc1c44539c0376a063ad1ba5"
+    },
+    {
+      "path": "src/research/label_censoring.py",
+      "status": "included_unchanged",
+      "sha256": "e3a8654490379261e8bcd1065a11e41b32fad24f6ea6611b961b68a3a0b5f954"
+    },
+    {
+      "path": "src/research/ml_ranking.py",
+      "status": "included_unchanged",
+      "sha256": "b856d26f50b04001dc6d21f13219e50f8b14b2ac7b2170beddf944b7c5c4f11d"
+    },
+    {
+      "path": "src/research/ml_ranking_metrics.py",
+      "status": "included_unchanged",
+      "sha256": "244bf3b2ced1db05695b12ef7b06be2e5830ef61f52caa6b5e2824c2aa686307"
+    },
+    {
+      "path": "src/research/objective_tradability.py",
+      "status": "included_unchanged",
+      "sha256": "367cbe37df93ae6e0d4d1b623efcd2f5eb37fc3496923cae4bc7055cfc17b476"
+    },
+    {
+      "path": "src/research/target_discovery.py",
+      "status": "included_unchanged",
+      "sha256": "a49f8ff6f58c55e4dd164a31fc65f68655aed108488da73d853bac844ae138c8"
+    },
+    {
+      "path": "src/universe_policy.py",
+      "status": "included_unchanged",
+      "sha256": "0ba0c6aa659254023a3b0715a5c3c4f06b48b4903a85984a9cf6ebbcf5b331ed"
+    },
+    {
+      "path": "tests/test_adapter.py",
+      "status": "included_unchanged",
+      "sha256": "577ac067e0956ecf023cae1e8f04f3d3bf26ccc0b73db39b4ea6cf11c961c3a2"
+    },
+    {
+      "path": "tests/test_adjustment_history_boundary.py",
+      "status": "included_unchanged",
+      "sha256": "936cf225bcfdfe6abe733766c32aa18a058a2e727e6c05fd60240ca88acc14ea"
+    },
+    {
+      "path": "tests/test_adjustment_point_in_time.py",
+      "status": "included_unchanged",
+      "sha256": "4fcb50dd73a6772dd57649d28cdfe2b8b46bdc1768c6fd264f8de485e1f2a08b"
+    },
+    {
+      "path": "tests/test_adjustment_qualification.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_adjustment_realdata_pit.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_bse_exclusion.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_dashboard.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_differential_dividend.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_market_rules.py",
+      "status": "included_unchanged",
+      "sha256": "c84120b5de6c73f56beb1468d5846a8162a932544ae7025f025b8da154d18661"
+    },
+    {
+      "path": "tests/test_official_evidence_paths.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase19f_evidence.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase19g_diagnosis.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase19h_single_event.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase19i_closure.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase19j_amount_bytes.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase19k_tick_arbitration.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase21_research.py",
+      "status": "included_unchanged",
+      "sha256": "427f3144eb6c21a83ed4052d5e92351d57d99e41a7eb8b9ab3056cc4351e0c18"
+    },
+    {
+      "path": "tests/test_phase22_episodes.py",
+      "status": "included_unchanged",
+      "sha256": "c278d8d843f7f2c379b92c18c44f6791f8fa8005ed8eb9bb2b324c093023c8c2"
+    },
+    {
+      "path": "tests/test_phase23_coverage.py",
+      "status": "included_unchanged",
+      "sha256": "0dc5dae053724f26ee085476d8fc184a0cd4d4b925282237d0c513c83235d51a"
+    },
+    {
+      "path": "tests/test_phase23b_publication.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase23c_censoring.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase24a_evaluation.py",
+      "status": "included_unchanged",
+      "sha256": "9cd2d6ab32b913c34c3d2a9c076ca3a70c2d4037ce5a5b3872d2ed78e13d50f1"
+    },
+    {
+      "path": "tests/test_phase24a_ranking.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase25_isolation.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_phase25_metrics.py",
+      "status": "included_unchanged",
+      "sha256": "6c0d9de7aead1c2f1cecfee91db8a0837b11fa200ac07e7fa2de5c1c8445189c"
+    },
+    {
+      "path": "tests/test_phase26a_tradability.py",
+      "status": "included_unchanged",
+      "sha256": "75e99298814b0e6d83e36f4af3bbf8d75c174bd97a28af25402e39e6644e5867"
+    },
+    {
+      "path": "tests/test_phase2_readiness.py",
+      "status": "included_unchanged",
+      "sha256": "ec067161865961b6d5321b25baaa4d6ad468b2e03ed3aafc279b8e6feb9bd865"
+    },
+    {
+      "path": "tests/test_rights_official.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_special_action_closure_pit.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    },
+    {
+      "path": "tests/test_tdx_discovery.py",
+      "status": "included_unchanged",
+      "sha256": "9cb5e80fc0630df85760d5ebe9a86bc724a8f7ba3c19ff6bb7f076d42d1b267c"
+    },
+    {
+      "path": "tests/test_trading_calendar.py",
+      "status": "excluded",
+      "reason": "Real/mixed fixtures, historical evidence or dependencies on excluded legacy operational modules; whole file excluded"
+    }
+  ],
+  "policy": "Included original files are byte-identical. Generated audit documentation, runner, example and .gitignore are separate; no original history is imported.",
+  "generated_files": [
+    ".gitignore",
+    "README.md",
+    "audit/DATA_INTERFACES.md",
+    "audit/FILE_MANIFEST.json",
+    "audit/REVIEW_GUIDE.md",
+    "audit/RIGHTS_AND_EXCLUSIONS.md",
+    "audit/SAFETY_REVIEW.md",
+    "audit/VALIDATION.json",
+    "audit/requirements-test.txt",
+    "audit/run_offline_tests.py",
+    "examples/synthetic_adjustment.py"
+  ]
+}
